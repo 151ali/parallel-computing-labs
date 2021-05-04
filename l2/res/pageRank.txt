@@ -1,0 +1,37 @@
+----------------------------------------------------------
+Max system threads = 4
+----------------------------------------------------------
+Loading graph...
+
+Graph stats:
+  Edges: 8
+  Nodes: 5
+----------------------------------------------------------
+Running with 1 threads
+Testing Correctness of Page Rank
+----------------------------------------------------------
+Running with 2 threads
+Testing Correctness of Page Rank
+----------------------------------------------------------
+Running with 4 threads
+Testing Correctness of Page Rank
+----------------------------------------------------------
+Your Code: Timing Summary
+Threads  Time (Speedup)
+   1:   0.0196 (1.0000x)
+   2:   0.0064 (3.0535x)
+   4:   0.0082 (2.3927x)
+----------------------------------------------------------
+Reference: Timing Summary
+Threads  Time (Speedup)
+   1:   0.0000 (1.0000x)
+   2:   0.0000 (0.8305x)
+   4:   0.0000 (0.7273x)
+----------------------------------------------------------
+Correctness: 
+
+Relative Speedup to Reference: 
+Threads  Speedup
+   1:     0.00x
+   2:     0.01x
+   4:     0.01x

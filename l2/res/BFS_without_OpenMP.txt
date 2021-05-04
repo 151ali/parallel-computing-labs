@@ -1,0 +1,43 @@
+----------------------------------------------------------
+Max system threads = 4
+----------------------------------------------------------
+Loading graph...
+
+Graph stats:
+  Edges: 8
+  Nodes: 5
+----------------------------------------------------------
+Running with 1 threads
+Testing Correctness of Top Down
+Testing Correctness of Bottom Up
+Testing Correctness of Hybrid
+----------------------------------------------------------
+Running with 2 threads
+Testing Correctness of Top Down
+Testing Correctness of Bottom Up
+Testing Correctness of Hybrid
+----------------------------------------------------------
+Running with 4 threads
+Testing Correctness of Top Down
+Testing Correctness of Bottom Up
+Testing Correctness of Hybrid
+----------------------------------------------------------
+Your Code: Timing Summary
+Threads  Top Down          Bottom Up         Hybrid
+   1:    0.02 (1.00x)      0.00 (1.00x)      0.00 (1.00x)
+   2:    0.00 (22200.31x)      0.00 (0.77x)      0.00 (0.52x)
+   4:    0.00 (16569.85x)      0.00 (0.88x)      0.00 (0.77x)
+----------------------------------------------------------
+Reference: Timing Summary
+Threads  Top Down          Bottom Up         Hybrid
+   1:    0.00 (1.00x)      0.00 (1.00x)      0.00 (1.00x)
+   2:    0.00 (0.01x)      0.00 (1.15x)      0.00 (0.52x)
+   4:    0.01 (0.00x)      0.00 (0.85x)      0.00 (0.42x)
+----------------------------------------------------------
+Correctness: 
+
+Speedup vs. Reference: 
+Threads       Top Down          Bottom Up             Hybrid
+   1:             0.00              14.24               8.36
+   2:          1589.54               9.54               8.26
+   4:          5154.60              14.74              15.26
